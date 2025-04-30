@@ -42,7 +42,7 @@ const LanguageDropdown = () => {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-4 py-2 text-blue-600 font-bold border border-blue-300 rounded-md hover:bg-blue-50 ease-in-out duration-300"
+        className="flex items-center gap-2 px-4 py-2 text-blue-600 font-bold border border-blue-300 rounded-md hover:bg-blue-50 ease-in-out duration-300 cursor-pointer"
       >
         <span>
           <TranslatedText
