@@ -1,6 +1,7 @@
 {
   "common": {
     "buttonText": "বাংলা",
+    "activeLanguage": "English",
     "title": "Using Localization in Nextjs application",
     "intro": "Next.js, a powerful React framework, has become a top choice for web development due to its versatility, performance optimizations, and developer-friendly features. Below, I’ll explain why Next.js is considered perfect for modern web development, focusing on its ability to handle real-time data and its overall strengths, while addressing potential drawbacks for a balanced perspective. This answer is comprehensive, up-to-date as of April 2025, and includes insights from recent web sources and posts on X to reflect real-world usage and sentiment.",
     "subTitle": "Why Next.js is Perfect for Web Development",

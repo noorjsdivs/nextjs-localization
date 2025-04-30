@@ -1,7 +1,7 @@
 // import 'server-only';
 
 // Define the Locale type
-export type Locale = "en" | "bn";
+export type Locale = "en" | "bn" | "es";
 
 export type Dictionary = {
   common: {
@@ -9,6 +9,7 @@ export type Dictionary = {
     intro: string;
     subTitle: string;
     description: string;
+    activeLanguage: string;
   };
 };
 

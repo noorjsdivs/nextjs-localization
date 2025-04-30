@@ -19,6 +19,11 @@ export default function TranslatedText({
   const [text, setText] = useState<string>("");
 
   useEffect(() => {
+    if (!dictionaries || !dictionaries[locale]) {
+      setText(path);
+      return;
+    }
+
     const dictionary = dictionaries[locale];
     const keys = path.split(".");
 
