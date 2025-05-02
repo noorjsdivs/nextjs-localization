@@ -1,4 +1,4 @@
-// import 'server-only';
+"use server";
 
 // Define the Locale type
 export type Locale = "en" | "bn" | "es";
